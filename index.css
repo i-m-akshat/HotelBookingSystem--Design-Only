@@ -1,0 +1,96 @@
+body{
+    height: 100%;
+    font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #ffffff;
+  transition: ease-in-out 0.5s;
+  /* background-color: black;
+  color:white; */
+}
+
+.heroSection {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/86597a5ad777499a9289dfbc11a816a9.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 600px;
+}
+
+.heroImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.heroSection .heroGlass{
+    background: rgba( 255, 255, 255, 0.05 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+height: 100%;
+
+}
+.heroSection .heroText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 20px;
+    /* background: rgba(255, 255, 255, 0.2);
+    background-size: cover;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    /* From https://css.glass */
+
+}
+.heroText .heroHead{
+    padding: 20px;
+    font-size: 50px;
+}
+.heroText .heroDescription{
+    padding: 20px;
+    font-size: 15px;
+}
+.heroText .heroBox{
+   color:white;
+   width: 100%;
+   padding: 20px;
+    
+}
+
+
+.card{
+    
+    background: rgba( 145, 136, 136, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.card img{
+    border-radius: 20px 0px 20px 0px;
+}
+.textBox{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+footer{
+    /* background-color: black;
+    color:white; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
