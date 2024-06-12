@@ -120,3 +120,151 @@ flex-direction: column;
     z-index: 1;
 
 }
+/* .main-image{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    padding:  10px;
+} */
+.side-img{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding:  10px;
+
+}
+
+.container-side{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.row-badge{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.row-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+@media only screen and (max-width: 600px) {
+    .main-image{
+        padding: 20px;
+    }
+    .container-side{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .filter-col{
+        display: none;
+    }
+    .container-main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .title-hotel{
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+    .text-hotel-address{
+        font-size: 14px;
+        padding: 10px;
+       text-align: center;
+    }
+    .row-badge{
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .row-badge .bd-ratings{
+        font-size: 12px;
+        flex-wrap: wrap;
+        padding: 5px;
+        text-align: center;
+    }
+    .row-badge .txt-Condition{
+        font-size: 10px;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+    .row-badge .txt-Rating{
+        font-size: 10px;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+    .row-bottom{
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+  }
+  /* @media  only screen and (max-width:930px) and (min-width:650px) {
+    body{
+        font-size: 15px;
+    }
+    .container-side{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }.main-image{
+        padding: 20px;
+    }
+    .container-images{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .title-hotel{
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+    .text-hotel-address{
+        font-size: 14px;
+        padding: 10px;
+       text-align: center;
+    }
+    .row-badge{
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        
+    }
+    .row-badge .bd-ratings{
+        font-size: 10px;
+        flex-wrap: wrap;
+        padding: none;
+    }
+    .row-badge .txt-Condition{
+        font-size: 10px;
+        flex-wrap: wrap;
+        padding: none;
+    }
+    .row-badge .txt-Rating{
+        font-size: 10px;
+        flex-wrap: wrap;
+        padding: none;
+    }
+    .contaier-hotelDetails{
+        padding: 10px;
+        
+    }
+    .contaier-hotelDetails .btn{
+        font-size: 14px;
+        padding: 5px;
+    }
+  } */

@@ -22,6 +22,7 @@
 
 <body>
     <div class="px-2">
+        <!-- navbar -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="logo/Basera.png" height="70px" width="70px"></a>
@@ -63,6 +64,7 @@
                 </div>
             </div>
         </nav>
+        <!--body-->
         <div class="container-fluid h-100">
             <div class="col-md-12 mt-3 py-3 ">
                 <div class="row justify-content-center align-items-center d-flex flex-row ">
@@ -77,7 +79,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="dropdown">
-                            <button type="button" class="btn btn-outline-dark btn-sm dropdown-toggle"
+                            <button type="button" class="btn btn-outline-dark btn-sm dropdown-toggle my-2 py-2"
                                 data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
                                 No Of Guests
                             </button>
@@ -91,7 +93,7 @@
                                     <input type="range" class="form-range" min="1" max="5" id="customRange3">
                                 </div>
 
-                                <center><button type="submit" class="btn btn-outline-dark text-center">Add</button>
+                                <center><button type="submit" class="btn btn-outline-dark text-center my-2 py-2">Add</button>
                                 </center>
                             </form>
                         </div>
@@ -101,51 +103,51 @@
                     </div>
                 </div>
             </div>
-
+<!--sort by-->
             <section class="col-md-12 mt-3">
                 <div class="row d-flex align-items-stretch py-3">
                     <div class="col-md-4 col-lg-3 filter-col">
 
                     </div>
-                    <div class="col-md-8 col-lg-9 main-col">
+                    <div class="col-md-8 col-lg-9 col-sm-12 main-col">
                         <div class="col-md-12 mt-3 py-2">
                             <div class="row justify-content-center align-items-center">
-                                <div class="col-md-8">
-                                    <div class="row justify-content-center align-items-center">
-                                        <label class="col-md-2">Sort By&nbsp;: </label>
+                                <div class="col-md-12">
+                                    <div class="row justify-content-center align-items-center d-flex">
+                                        <label class="col-md-2 d-flex">Sort By&nbsp;: </label>
                                         <button type="button"
-                                            class="btn btn-sm btn-outline-dark col-md-2 mx-2">Recommended</button>
+                                            class="btn btn-sm btn-outline-dark col-md-2 my-2 py-2 mx-2">Recommended</button>
                                         <button type="button"
-                                            class="btn btn-sm btn-outline-dark col-md-2 mx-2">Recommended</button>
+                                            class="btn btn-sm btn-outline-dark col-md-2 my-2 py-2 mx-2">Recommended</button>
                                         <button type="button"
-                                            class="btn btn-sm btn-outline-dark col-md-2 mx-2">Recommended</button>
+                                            class="btn btn-sm btn-outline-dark col-md-2 my-2 py-2 mx-2">Recommended</button>
                                         <button type="button"
-                                            class="btn btn-sm btn-outline-dark col-md-2 mx-2">Recommended</button>
+                                            class="btn btn-sm btn-outline-dark col-md-2 my-2 py-2 mx-2">Recommended</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-12 mt-3 py-2">
                             <div class="col-md-12 py-2 px-2">
-                                <div class="card">
-                                    <div class="row d-flex align-items-stretch">
-                                        <div class="col-md-7 ">
-                                            <div class="row d-flex align-items-stretch g-1">
-                                                <div class="col-md-9 d-flex" id="container-main">
-                                                    <img src="img/images (1).jpeg" class="d-flex img-fluid "
+                                <div class="card" id="card1">
+                                    <div class="row d-flex align-items-stretch ">
+                                        <div class="col-md-7">
+                                            <div class="row d-flex align-items-stretch g-1 container-images">
+                                                <div class="col-md-9 d-flex container-main" >
+                                                    <img src="img/images (1).jpeg" class="d-flex img-fluid my-2 mx-2"
                                                         style="border-radius: 20px;" />
                                                 </div>
-                                                <div class="col-md-3 d-flex flex-column container-side">
+                                                <div class="col-md-3 container-side">
                                                     <div class="col-md-12 py-1">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                        <img src="img/images (1).jpeg" class="side-img"
                                                             style="border-radius: 20px;" />
                                                     </div>
                                                     <div class="col-md-12 py-1">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                        <img src="img/images (1).jpeg" class="side-img"
                                                             style="border-radius: 20px;" />
                                                     </div>
                                                     <div class="col-md-12 py-1">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                        <img src="img/images (1).jpeg" class="side-img"
                                                             style="border-radius: 20px;" />
                                                     </div>
                                                 </div>
@@ -153,33 +155,37 @@
 
                                         </div>
                                         <div class="col-md-5  d-flex flex-column">
-                                            <div class="col-md-12">
-                                                <h5 class="text-center py-2 my-2">
+                                            <div class="col-md-12 contaier-hotelDetails">
+                                                <h5 class="text-center py-2 title-hotel">
                                                     Kohinoor Palace
                                                 </h5>
-                                                <p class="text-justify">Address of the Hotel with landmark</p>
-                                                <div class="row">
-                                                    <div class="col-md-4">
-                                                        <span class="badge text-bg-success">
-                                                            5&nbsp;Ratings
-                                                        </span>
+                                                <p class="py-2 text-hotel-address">Address of the Hotel with landmark</p>
+                                                <div class="col-md-12 col-sm-12">
+                                                    <div class="row-badge">
+                                                        <div class="col-md-4 col-sm-4 py-3">
+                                                            <span class="badge text-bg-success bd-ratings">
+                                                                5&nbsp;Ratings
+                                                            </span>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4 py-3 txt-Rating">
+                                                            <p class="text-black-50" style="font-size: 13px;">(1 Ratings)
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4 py-3 txt-Condition">
+                                                            <p class="text-black-50" style="font-size: 13px;">Condition
+                                                                State</p>
+                                                        </div>
+    
+    
                                                     </div>
-                                                    <div class="col-md-4">
-                                                        <p class="text-black-50" style="font-size: 13px;">(1 Ratings)
-                                                        </p>
-                                                    </div>
-                                                    <div class="col-md-4">
-                                                        <p class="text-black-50" style="font-size: 13px;">Condition
-                                                            State</p>
-                                                    </div>
-
-
                                                 </div>
+                                               
                                             </div>
                                             <div class="col-md-12 mt-auto mb-0 py-3">
-                                                <div class="row ">
+                                                <div class="row-bottom">
                                                     <div class="col-md-4">
-                                                        Rs 20000
+                                                        <p class="text-center" style="font-size: 18px;">
+                                                            &#8377;&nbsp;20000</p>
                                                     </div>
                                                     <div class="col-md-8">
                                                         <div class="col-md-12">
@@ -204,170 +210,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 py-2 px-2">
-                                <div class="card">
-                                    <div class="row d-flex align-items-stretch">
-                                        <div class="col-md-7 ">
-                                            <div class="row d-flex align-items-stretch g-1">
-                                                <div class="col-md-9 d-flex" id="container-main">
-                                                    <img src="img/images (1).jpeg" class="d-flex img-fluid "
-                                                        style="border-radius: 20px;" />
-                                                </div>
-                                                <div class="col-md-3 d-flex flex-column container-side">
-                                                    <div class="col-md-12">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
-                                                            style="border-radius: 20px;" />
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
-                                                            style="border-radius: 20px;" />
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
-                                                            style="border-radius: 20px;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-md-5">
-                                            <div class="col-md-12">
-                                                <h5 class="text-center py-2">
-                                                    Title of the Hotel will be here
-                                                </h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 py-2 px-2">
-                                <div class="card">
-                                    <div class="row d-flex align-items-stretch">
-                                        <div class="col-md-7 ">
-                                            <div class="row d-flex align-items-stretch g-1">
-                                                <div class="col-md-9 d-flex" id="container-main">
-                                                    <img src="img/images (1).jpeg" class="d-flex img-fluid "
-                                                        style="border-radius: 20px;" />
-                                                </div>
-                                                <div class="col-md-3 d-flex flex-column container-side">
-                                                    <div class="col-md-12">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
-                                                            style="border-radius: 20px;" />
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
-                                                            style="border-radius: 20px;" />
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
-                                                            style="border-radius: 20px;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-md-5">
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 py-2 px-2">
-                                <div class="card">
-                                    <div class="row d-flex align-items-stretch">
-                                        <div class="col-md-7 ">
-                                            <div class="row d-flex align-items-stretch g-1">
-                                                <div class="col-md-9 d-flex" id="container-main">
-                                                    <img src="img/images (1).jpeg" class="d-flex img-fluid "
-                                                        style="border-radius: 20px;" />
-                                                </div>
-                                                <div class="col-md-3 d-flex flex-column container-side">
-                                                    <div class="col-md-12">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
-                                                            style="border-radius: 20px;" />
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
-                                                            style="border-radius: 20px;" />
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
-                                                            style="border-radius: 20px;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-md-5">
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 py-2 px-2">
-                                <div class="card">
-                                    <div class="row d-flex align-items-stretch">
-                                        <div class="col-md-7 ">
-                                            <div class="row d-flex align-items-stretch g-1">
-                                                <div class="col-md-9 d-flex" id="container-main">
-                                                    <img src="img/images (1).jpeg" class="d-flex img-fluid "
-                                                        style="border-radius: 20px;" />
-                                                </div>
-                                                <div class="col-md-3 d-flex flex-column container-side">
-                                                    <div class="col-md-12">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
-                                                            style="border-radius: 20px;" />
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
-                                                            style="border-radius: 20px;" />
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
-                                                            style="border-radius: 20px;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-md-5">
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 py-2 px-2">
-                                <div class="card">
-                                    <div class="row d-flex align-items-stretch">
-                                        <div class="col-md-7 ">
-                                            <div class="row d-flex align-items-stretch g-1">
-                                                <div class="col-md-9 d-flex" id="container-main">
-                                                    <img src="img/images (1).jpeg" class="d-flex img-fluid "
-                                                        style="border-radius: 20px;" />
-                                                </div>
-                                                <div class="col-md-3 d-flex flex-column container-side">
-                                                    <div class="col-md-12">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
-                                                            style="border-radius: 20px;" />
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
-                                                            style="border-radius: 20px;" />
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
-                                                            style="border-radius: 20px;" />
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-md-5">
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -404,5 +247,20 @@
 
 </body>
 <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+<script>
+    const setImageMaine=(cardID,newImageSrc)=>{
+        const mainImage=document.querySelector(`${cardID} .main-image`);
+        if(mainImage){
+            mainImage.src=newImageSrc
+        }
+    }
+    document.querySelectorAll('.side-img').forEach(sideImage=>{
+        sideImage.addEventListener('click',function(){
+            const cardId=this.closest('.card').id;
+            const newImageSrc=this.src;
+            setImageMaine(cardId,newImageSrc);
+        })
+    })
+</script>
 
 </html>
