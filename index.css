@@ -5,9 +5,12 @@ body{
   font-weight: 400;
   font-style: normal;
   background-color: #ffffff;
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s; scrollbar-width: none;
   /* background-color: black;
   color:white; */
+}
+body::-webkit-scrollbar{
+    display: none;
 }
 
 .heroSection {
@@ -93,4 +96,27 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+/* .container-main{
+display: flex;
+flex-direction: row;
+height: 300px;
+}
+.container-side{
+display: flex;
+flex-direction: column;
+} */
+.main-col{
+    height: 100vh;overflow-y: auto;
+    scrollbar-width: none;
+}
+.main-col::-webkit-scrollbar{
+    display: none;
+}
+.filter-col{
+    height: 100vh;
+    overflow-y: auto;
+    background-color: red;
+    z-index: 1;
+
 }

@@ -9,13 +9,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-   
+
 </head>
 
 <body>
@@ -65,61 +67,311 @@
             <div class="col-md-12 mt-3 py-3 ">
                 <div class="row justify-content-center align-items-center d-flex flex-row ">
                     <div class="col-md-3">
-                        <input type="text" class="form-control " placeholder="Please Enter the location"/>
+                        <input type="text" class="form-control " placeholder="Please Enter the location" />
                     </div>
                     <div class="col-md-2">
-                        <input type="date" class="form-control " placeholder="check in date"/>
+                        <input type="date" class="form-control " placeholder="check in date" />
                     </div>
                     <div class="col-md-2">
-                        <input type="date" class="form-control " placeholder="Check out Date"/>
+                        <input type="date" class="form-control " placeholder="Check out Date" />
                     </div>
                     <div class="col-md-3">
                         <div class="dropdown">
-                            <button type="button" class="btn btn-outline-dark btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
-                              No Of Guests
+                            <button type="button" class="btn btn-outline-dark btn-sm dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                                No Of Guests
                             </button>
                             <form class="dropdown-menu p-4">
-                              <div class="mb-3">
-                                <label for="exampleDropdownFormEmail2" class="form-label">Adult</label>
-                                <input type="range" class="form-range" min="1" max="5" id="customRange2">
-                              </div>
-                              <div class="mb-3">
-                                <label for="exampleDropdownFormPassword2" class="form-label">Children</label>
-                                <input type="range" class="form-range" min="1" max="5" id="customRange3">
-                              </div>
-                              
-                              <center><button type="submit" class="btn btn-outline-dark text-center">Add</button></center>
+                                <div class="mb-3">
+                                    <label for="exampleDropdownFormEmail2" class="form-label">Adult</label>
+                                    <input type="range" class="form-range" min="1" max="5" id="customRange2">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleDropdownFormPassword2" class="form-label">Children</label>
+                                    <input type="range" class="form-range" min="1" max="5" id="customRange3">
+                                </div>
+
+                                <center><button type="submit" class="btn btn-outline-dark text-center">Add</button>
+                                </center>
                             </form>
-                          </div>
+                        </div>
                     </div>
                     <div class="col-md-2">
                         <button class="btn btn-outline-dark " type="submit">Search</button>
                     </div>
                 </div>
             </div>
-            
+
             <section class="col-md-12 mt-3">
-                <div class="row justify-content-center align-items-center py-3">
-                    <div class="col-md-4 col-lg-3" style="background-color: red;height: 100vh;">
+                <div class="row d-flex align-items-stretch py-3">
+                    <div class="col-md-4 col-lg-3 filter-col">
 
                     </div>
-                    <div class="col-md-8 col-lg-9" style="height: 100vh;">
+                    <div class="col-md-8 col-lg-9 main-col">
                         <div class="col-md-12 mt-3 py-2">
                             <div class="row justify-content-center align-items-center">
                                 <div class="col-md-8">
                                     <div class="row justify-content-center align-items-center">
                                         <label class="col-md-2">Sort By&nbsp;: </label>
-                                        <button type="button"  class="btn btn-sm btn-outline-dark col-md-2 mx-2">Recommended</button>
-                                        <button type="button"  class="btn btn-sm btn-outline-dark col-md-2 mx-2">Recommended</button>
-                                        <button type="button"  class="btn btn-sm btn-outline-dark col-md-2 mx-2">Recommended</button>
-                                        <button type="button"  class="btn btn-sm btn-outline-dark col-md-2 mx-2">Recommended</button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-outline-dark col-md-2 mx-2">Recommended</button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-outline-dark col-md-2 mx-2">Recommended</button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-outline-dark col-md-2 mx-2">Recommended</button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-outline-dark col-md-2 mx-2">Recommended</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-3 py-2">
+                            <div class="col-md-12 py-2 px-2">
+                                <div class="card">
+                                    <div class="row d-flex align-items-stretch">
+                                        <div class="col-md-7 ">
+                                            <div class="row d-flex align-items-stretch g-1">
+                                                <div class="col-md-9 d-flex" id="container-main">
+                                                    <img src="img/images (1).jpeg" class="d-flex img-fluid "
+                                                        style="border-radius: 20px;" />
+                                                </div>
+                                                <div class="col-md-3 d-flex flex-column container-side">
+                                                    <div class="col-md-12 py-1">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                    <div class="col-md-12 py-1">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                    <div class="col-md-12 py-1">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-5  d-flex flex-column">
+                                            <div class="col-md-12">
+                                                <h5 class="text-center py-2 my-2">
+                                                    Kohinoor Palace
+                                                </h5>
+                                                <p class="text-justify">Address of the Hotel with landmark</p>
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <span class="badge text-bg-success">
+                                                            5&nbsp;Ratings
+                                                        </span>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p class="text-black-50" style="font-size: 13px;">(1 Ratings)
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p class="text-black-50" style="font-size: 13px;">Condition
+                                                            State</p>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mt-auto mb-0 py-3">
+                                                <div class="row ">
+                                                    <div class="col-md-4">
+                                                        Rs 20000
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <button class="btn btn-outline-dark btn-sm">View
+                                                                        Details</button>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <button class="btn btn-outline-dark btn-sm">Book
+                                                                        Now</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 py-2 px-2">
+                                <div class="card">
+                                    <div class="row d-flex align-items-stretch">
+                                        <div class="col-md-7 ">
+                                            <div class="row d-flex align-items-stretch g-1">
+                                                <div class="col-md-9 d-flex" id="container-main">
+                                                    <img src="img/images (1).jpeg" class="d-flex img-fluid "
+                                                        style="border-radius: 20px;" />
+                                                </div>
+                                                <div class="col-md-3 d-flex flex-column container-side">
+                                                    <div class="col-md-12">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="col-md-12">
+                                                <h5 class="text-center py-2">
+                                                    Title of the Hotel will be here
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 py-2 px-2">
+                                <div class="card">
+                                    <div class="row d-flex align-items-stretch">
+                                        <div class="col-md-7 ">
+                                            <div class="row d-flex align-items-stretch g-1">
+                                                <div class="col-md-9 d-flex" id="container-main">
+                                                    <img src="img/images (1).jpeg" class="d-flex img-fluid "
+                                                        style="border-radius: 20px;" />
+                                                </div>
+                                                <div class="col-md-3 d-flex flex-column container-side">
+                                                    <div class="col-md-12">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-5">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 py-2 px-2">
+                                <div class="card">
+                                    <div class="row d-flex align-items-stretch">
+                                        <div class="col-md-7 ">
+                                            <div class="row d-flex align-items-stretch g-1">
+                                                <div class="col-md-9 d-flex" id="container-main">
+                                                    <img src="img/images (1).jpeg" class="d-flex img-fluid "
+                                                        style="border-radius: 20px;" />
+                                                </div>
+                                                <div class="col-md-3 d-flex flex-column container-side">
+                                                    <div class="col-md-12">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-5">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 py-2 px-2">
+                                <div class="card">
+                                    <div class="row d-flex align-items-stretch">
+                                        <div class="col-md-7 ">
+                                            <div class="row d-flex align-items-stretch g-1">
+                                                <div class="col-md-9 d-flex" id="container-main">
+                                                    <img src="img/images (1).jpeg" class="d-flex img-fluid "
+                                                        style="border-radius: 20px;" />
+                                                </div>
+                                                <div class="col-md-3 d-flex flex-column container-side">
+                                                    <div class="col-md-12">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-5">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 py-2 px-2">
+                                <div class="card">
+                                    <div class="row d-flex align-items-stretch">
+                                        <div class="col-md-7 ">
+                                            <div class="row d-flex align-items-stretch g-1">
+                                                <div class="col-md-9 d-flex" id="container-main">
+                                                    <img src="img/images (1).jpeg" class="d-flex img-fluid "
+                                                        style="border-radius: 20px;" />
+                                                </div>
+                                                <div class="col-md-3 d-flex flex-column container-side">
+                                                    <div class="col-md-12">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <img src="img/images (1).jpeg" class="d-flex img-fluid w-100"
+                                                            style="border-radius: 20px;" />
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-5">
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
             </section>
         </div>
         <div class="col-12 my-1">
@@ -134,21 +386,23 @@
                 <div class="row pb-3 mb-3 text-justify px-3">
                     <div class="col-md-6">
                         <p class="text-black-50">Designed And Developed By&nbsp;<b><a
-                            class="text-danger text-decoration-none"
-                            href="https://i-m-akshat.github.io/AkshatDwivedi_Portfolio/">Akshat Dwivedi</a></b></p>
+                                    class="text-black text-decoration-none"
+                                    href="https://i-m-akshat.github.io/AkshatDwivedi_Portfolio/">Akshat Dwivedi</a></b>
+                        </p>
                     </div>
-                   
-                                <div class="col-md-6">
-                                    <p class="text-black-50" style="text-align: end;">© 2024 Basera, Inc</p>
-                                </div>
-                   
+
+                    <div class="col-md-6">
+                        <p class="text-black-50" style="text-align: end;">© 2024 Basera, Inc</p>
+                    </div>
 
 
-                            </div>
+
+                </div>
             </footer>
-          </div>
+        </div>
     </div>
-    
+
 </body>
 <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </html>
