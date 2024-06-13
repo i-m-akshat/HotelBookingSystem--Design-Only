@@ -15,7 +15,55 @@ body::-webkit-scrollbar{
 .btn {
     font-size: 13px;
 }
+.btnClick{
+    color: white;
+    text-decoration: none;
+    font-weight:bolder;
+transition: 0.5s ease-in-out;
+}
+.btnClick:hover{
+    color: red;
 
+}
+.textMainLoginHead{
+    font-size: 50px;
+    text-wrap: pretty;
+    padding: 30px;
+}
+.textSubLogin{
+    font-size: 20px;
+    text-wrap: pretty;
+    padding: 30px;
+}
+.textHindi{
+    font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+.loginBody{
+    background-image: url('img/loginbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginBody .loginGlass{
+    background: rgba(255, 249, 249, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .heroSection {
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/86597a5ad777499a9289dfbc11a816a9.jpeg');
