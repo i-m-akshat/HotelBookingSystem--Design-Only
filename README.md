@@ -8,5 +8,5 @@
 <h3 class="text-center mt-2">All Hotel List</h3>
 <img src="https://github.com/i-m-akshat/HotelBookingSystem--Design-Only/assets/100028672/43969f16-2432-41c4-924e-ac03a4216ac0"/>
 <h3 class="text-center mt-2">Login Page</h3>
-<img src="https://github.com/i-m-akshat/HotelBookingSystem--Design-Only/assets/100028672/5551b426-3cbb-4ff4-bc5e-c3c0150aa2ea/>
+<img src="https://github.com/i-m-akshat/HotelBookingSystem--Design-Only/assets/100028672/5551b426-3cbb-4ff4-bc5e-c3c0150aa2ea"/>
 
