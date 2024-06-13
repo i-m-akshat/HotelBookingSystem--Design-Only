@@ -12,6 +12,9 @@ body{
 body::-webkit-scrollbar{
     display: none;
 }
+.btn {
+    font-size: 13px;
+}
 
 .heroSection {
     width: 100%;
@@ -149,7 +152,18 @@ flex-direction: column;
     justify-content: center;
     align-items: stretch;
 }
+.offcanvas-filter{
+    display: none;
+}
 @media only screen and (max-width: 600px) {
+    .side-img{
+        width: 100px;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        padding:  10px;
+    
+    }
     .main-image{
         padding: 20px;
     }
@@ -161,6 +175,9 @@ flex-direction: column;
     }
     .filter-col{
         display: none;
+    }
+    .offcanvas-filter{
+        display: flex;
     }
     .container-main{
         display: flex;
