@@ -281,6 +281,21 @@ flex-direction: column;
         display: flex;
         justify-content: center;
         align-items: center;
+    }.loginBody{
+        height: 100%;
+    }
+    .textMainLoginHead{
+        font-size: 23px;
+        text-align: center;
+    }
+    .textSubLogin{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 8px;
+        padding-top: 0px;
+    }
+    .card{
+        font-size: 12px;
     }
     
   }
