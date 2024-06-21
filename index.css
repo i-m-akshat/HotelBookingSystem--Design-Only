@@ -50,6 +50,29 @@ transition: 0.5s ease-in-out;
     align-items: center;
     justify-content: center;
 }
+.SignUpBody{
+    background-image: url('img/dark.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SignUpBody .SignUpGlass{
+    background: rgba(255, 249, 249, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .loginBody .loginGlass{
     background: rgba(255, 249, 249, 0.15);
     border-radius: 16px;
