@@ -203,7 +203,40 @@ flex-direction: column;
 .offcanvas-filter{
     display: none;
 }
+/* index.css */
+
+.row-AdminPanel {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.Admin-sidebar {
+    background-color: blue;
+    width: 300px; /* Adjust sidebar width as needed */
+    padding: 10px;
+    margin-right: 10px; /* Adjust margin between sidebar and main */
+    overflow-y: auto; /* Ensure sidebar can scroll if content exceeds height */
+    transition: width 0.5s ease-in-out;
+}
+
+.Admin-sidebar.closed {
+    width: 0;
+    padding: 10px 0; /* Adjust padding when closed */
+    margin: 0; /* Remove margin when closed */
+}
+
+.Admin-Main {
+    flex: 1; /* Expand to fill remaining space */
+    padding: 10px;
+    background-color: red;
+    overflow-y: auto; /* Ensure main content can scroll if needed */
+    transition: margin-left 0.5s ease-in-out;
+}
+
 @media only screen and (max-width: 600px) {
+    
     .side-img{
         width: 100px;
         height: 70px;
